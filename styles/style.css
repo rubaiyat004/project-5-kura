@@ -156,5 +156,45 @@ nav{
     justify-content: space-between;
 }
 
+/*skills starts here*/
 
+.skills{
+    background-image: url(images/white-texture.png);
+    
+}
+.skills-wrapper{
+    max-width: 86.25em;
+    padding: 0 4.375em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.bar-container{
+    max-width: 40%;
+    padding: 20px 0;
+    margin: 50px 0;
+}
+.skill-1-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
 
+.skill-hero-image{
+    max-width: 60%;
+    
+}
+
+.hr-1{
+    border: 3px solid red;
+
+}
+.hr-2{
+    border: 3px solid red;
+}
+.hr-3{
+    border: 3px solid red;
+}
