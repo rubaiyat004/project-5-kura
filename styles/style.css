@@ -89,13 +89,71 @@ nav{
 }
 .hero-img{
     transform: rotate(7deg);
-    z-index: 2;
+    
     border-radius: 10px;
-    height: 380px;
-    max-width: 400px;
+    height: 23.75em;
+    max-width: 25em;
 }
 .hero{
     max-width: 50%;
+}
+/*portfolio starts here*/
+
+.portfolio-wrapper{
+    max-width: 86.25em;
+    padding: 0 4.375em;
+
+}
+.portfolio-grid-1{
+    width: 18.75em;
+  height: 12.5em;
+  padding: 50px;
+  border: 5px solid black;
+}
+.portfolio-grid-2{
+    width: 18.75em;
+  height: 12.5em;
+  background-image: url(images/hero2.jpg);
+  padding: 50px;
+  border: 5px solid black;
+}
+.portfolio-grid-3{
+    width: 18.75em;
+  height: 12.5em;
+  padding: 50px;
+  border: 5px solid black;
+}
+.portfolio-grid{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(18.75em, 1fr));
+    
+    
+}
+
+.pagination-total hr{
+    width: 10%;
+}
+.pagination-total{
+    display: flex;
+    align-items: center;
+}
+
+.left{
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    
+}
+.next{
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    
+}
+.pagination-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 
