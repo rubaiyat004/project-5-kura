@@ -105,21 +105,21 @@ nav{
 
 }
 .portfolio-grid-1{
-    width: 18.75em;
+  width: 18.75em;
   height: 12.5em;
   padding: 50px;
   background-image: url(images/portfolio1.jpg);
   border: 5px solid black;
 }
 .portfolio-grid-2{
-    width: 18.75em;
+  width: 18.75em;
   height: 12.5em;
   background-image: url(images/portfolio2.jpg);
   padding: 50px;
   border: 5px solid black;
 }
 .portfolio-grid-3{
-    width: 18.75em;
+  width: 18.75em;
   height: 12.5em;
   background-image: url(images/portfolio3.jpg);
   padding: 50px;
@@ -129,11 +129,10 @@ nav{
     display: grid;
     grid-template-columns: repeat(3, minmax(18.75em, 1fr));
     
-    
 }
 
 .pagination-total hr{
-    width: 10%;
+    width: 70px;
 }
 .pagination-total{
     display: flex;
@@ -330,5 +329,40 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+/*News starts here*/
+
+.news-wrapper{
+    max-width: 86.25em;
+    padding: 0 4.375em;
+
+}
+
+.news-grid-1{
+    width: 18.75em;
+  height: 12.5em;
+  padding: 50px;
+  background-image: url(images/2.jpg);
+  border: 5px solid black;
+}
+.news-grid-2{
+    width: 18.75em;
+  height: 12.5em;
+  padding: 50px;
+  background-image: url(images/3.jpg);
+  border: 5px solid black;
+}
+.news-grid-3{
+    width: 18.75em;
+  height: 12.5em;
+  padding: 50px;
+  background-image: url(images/4.jpg);
+  border: 5px solid black;
+}
+
+.news-grid{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(18.75em, 1fr));
 }
 
