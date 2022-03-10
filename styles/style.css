@@ -100,7 +100,7 @@ nav{
 /*portfolio starts here*/
 
 
-.portfolio-wrapper-flex{
+.portfolio-wrapper{
     max-width: 1380px;
     padding: 0 70px;
 
@@ -373,10 +373,7 @@ nav{
 .contact{
     background-color: #F9F9F9;
 }
-.contact-wrapper{
-    max-width: 1380px;
-    padding: 0 70px;
-}
+
 
 .contact-icon{
     width: 20px;
@@ -439,6 +436,8 @@ nav{
     width: 400px;
 }
 .contact-wrapper-grid{
+    max-width: 1380px;
+    padding: 0 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -461,6 +460,8 @@ nav{
     
 }
 .footer-wrapper-flex{
+    max-width: 1380px;
+    padding: 0 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
