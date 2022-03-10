@@ -108,18 +108,20 @@ nav{
     width: 18.75em;
   height: 12.5em;
   padding: 50px;
+  background-image: url(images/portfolio1.jpg);
   border: 5px solid black;
 }
 .portfolio-grid-2{
     width: 18.75em;
   height: 12.5em;
-  background-image: url(images/hero2.jpg);
+  background-image: url(images/portfolio2.jpg);
   padding: 50px;
   border: 5px solid black;
 }
 .portfolio-grid-3{
     width: 18.75em;
   height: 12.5em;
+  background-image: url(images/portfolio3.jpg);
   padding: 50px;
   border: 5px solid black;
 }
@@ -197,4 +199,105 @@ nav{
 }
 .hr-3{
     border: 3px solid red;
+}
+
+
+/* timeline sstarts here*/
+
+.timeline-wrapper{
+    max-width: 86.25em;
+    padding: 0 4.375em;
+}
+.timeline-flex-body-1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.timeline-flex-body-2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.timeline-flex-body-3{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.timeline-flex-body-4{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.timeline-flex-body-5{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.pricing{
+    background-color: #F9F9F9;
+}
+.pricing-wrapper{
+    max-width: 86.25em;
+    padding: 0 4.375em;
+}
+
+
+.pricing-desc{
+    width: 25em;
+}
+.pricing-cards{
+    width: 25em;
+}
+.pricing-icon{
+    width: 20px;
+    height: 20px;
+    color: #FF4522;
+}
+
+.pricing-card-1-flex{
+    width: 21.875em;
+    display: flex;
+    justify-content: space-between;
+}
+.pricing-card-1{
+    display: flex;
+}
+.pricing-card-2-flex{
+    width: 21.875em;
+    display: flex;
+    justify-content: space-between;
+}
+.pricing-card-2{
+    display: flex;
+}
+.pricing-card-3-flex{
+    width: 21.875em;
+    display: flex;
+    justify-content: space-between;
+}
+.pricing-card-3{
+    display: flex;
+}
+.pricing-card-4-flex{
+    width: 21.875em;
+    display: flex;
+    justify-content: space-between;
+}
+.pricing-card-4{
+    display: flex;
+}
+.pricing-card-5-flex{
+    width: 21.875em;
+    display: flex;
+    justify-content: space-between;
+}
+.pricing-card-5{
+    display: flex;
+}
+
+.pricing-container-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
