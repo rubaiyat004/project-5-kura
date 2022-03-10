@@ -99,9 +99,10 @@ nav{
 }
 /*portfolio starts here*/
 
-.portfolio-wrapper{
-    max-width: 86.25em;
-    padding: 0 4.375em;
+
+.portfolio-wrapper-flex{
+    max-width: 1380px;
+    padding: 0 70px;
 
 }
 .portfolio-grid-1{
@@ -164,8 +165,8 @@ nav{
     
 }
 .skills-wrapper{
-    max-width: 86.25em;
-    padding: 0 4.375em;
+    max-width: 1380px;
+    padding: 0 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -237,8 +238,8 @@ nav{
     background-color: #F9F9F9;
 }
 .pricing-wrapper{
-    max-width: 86.25em;
-    padding: 0 4.375em;
+    max-width: 1380px;
+    padding: 0 70px;
 }
 
 
@@ -334,8 +335,8 @@ nav{
 /*News starts here*/
 
 .news-wrapper{
-    max-width: 86.25em;
-    padding: 0 4.375em;
+    max-width: 1380px;
+    padding: 0 70px;
 
 }
 
@@ -366,3 +367,98 @@ nav{
     grid-template-columns: repeat(3, minmax(18.75em, 1fr));
 }
 
+
+/* contact starts here */
+
+.contact{
+    background-color: #F9F9F9;
+}
+.contact-wrapper{
+    max-width: 1380px;
+    padding: 0 70px;
+}
+
+.contact-icon{
+    width: 20px;
+    height: 20px;
+}
+.contact-desk-icon-1{
+    display: flex;
+}
+.contact-desk-icon-2{
+    display: flex;
+}
+.contact-desk-icon-3{
+    display: flex;
+}
+.contact-desk-icon-4{
+    display: flex;
+}
+
+.contact-desk{
+    width: 400px;
+    padding: 40px;
+}
+#form{
+    width: 400px;
+    
+}
+#name{
+    width: 400px;
+    height: 40px;
+    
+    
+}
+#email{
+    width: 400px;
+    height: 40px;
+    
+    
+}
+#message{
+    width: 400px;
+    height: 40px;
+   
+    
+}
+#submit{
+    width: 400px;
+    height: 40px;
+    
+    
+    text-align: center;
+    color: #F9F9F9;
+    background-color: #FF4522;
+    justify-content: center;
+}
+.submit-icon{
+    width: 20px;
+    height: 20px;
+}
+.contact-form{
+    width: 400px;
+}
+.contact-wrapper-grid{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*footer starts here*/
+.footer{
+    background-color: rgb(114, 111, 111);
+}
+.footer-icon{
+    width: 30px;
+    height: 30px;
+    
+}
+
+.footer-social-icons{
+    display: flex;
+}
+.footer-wrapper-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
