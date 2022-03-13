@@ -45,13 +45,18 @@ nav{
 /*hero content starts here*/
 .hero-container{
     background-color: #F9F9F9;
+    
 }
 .hero-wrapper{
     max-width: 1380px;
-    padding: 0 70px;
+    padding: 70px 70px;
+    width: 100%;
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    
 }
 
 #right{
@@ -78,8 +83,8 @@ nav{
 .hero-content-flex{
     display: flex;
 }
-.hero-content{
-    max-width: 50%;
+.hero-wrapper .hero-content{
+    max-width: 100%;
     padding: 50px 0;
 }
 .down-arrow{
@@ -87,12 +92,28 @@ nav{
     height: 30px;
     cursor: pointer;
 }
-.hero-img{
+.hero-wrapper .hero-img{
+    max-width: 100%;
+}
+.hero-wrapper .hero-img img{
     transform: rotate(7deg);
-    
+    width: 350px;
+    max-height: 450px;
     border-radius: 10px;
-    height: 23.75em;
-    max-width: 25em;
+    position: relative;
+    z-index: 100;
+    
+}
+.hero-wrapper .hero-img .photo-bg{
+    position: absolute;
+    width: 350px;
+    height: 450px;
+    transform: rotate(-7deg);
+    right: 420px;
+    top: 205px;
+    background: #FF4522;
+    border-radius: 10px;
+    
 }
 .hero{
     max-width: 50%;
@@ -198,6 +219,7 @@ nav{
     border-radius: 20px;
     
 }
+
 .bar-1 div{
     position: relative;
     width: 95%;
