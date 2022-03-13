@@ -11,6 +11,7 @@ body{
 nav{
     height:100px;
     
+    
        
 }
 .top-nav{
@@ -32,7 +33,7 @@ nav{
 .nav-element ul li{
     display: inline-block;
     line-height: 50px;
-    margin: 0 15px;
+    margin: 0 20px;
 }
 .top-nav{
     display: flex;
@@ -109,7 +110,7 @@ nav{
     width: 350px;
     height: 450px;
     transform: rotate(-7deg);
-    right: 420px;
+    right: 220px;
     top: 205px;
     background: #FF4522;
     border-radius: 10px;
