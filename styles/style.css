@@ -26,8 +26,8 @@ nav{
     cursor: pointer;
 }
 .top-nav{
-    max-width: 1340px;
-    padding: 0 70px;
+    max-width: 1380px;
+    padding: 0 100px;
     
     
 }
@@ -45,9 +45,13 @@ nav{
 .nav-element ul li{
     display: inline-block;
     line-height: 50px;
-    margin: 0 15px;
+    margin: 0 8px;
     
     
+}
+.nav-element ul li img{
+    width: 20px;
+    height: 20px;
 }
 .nav-element ul li a span{
     
@@ -75,7 +79,7 @@ nav{
 /*hero content starts here*/
 
 
-}
+
 .hero-container{
     background-color: #F9F9F9;
     
@@ -145,11 +149,11 @@ nav{
 }
 .hero-wrapper .hero-img .photo-bg{
     position: absolute;
-    width: 330px;
+    width: 350px;
     height: 450px;
     transform: rotate(-7deg);
-    right: 380px;
-    top: 170px;
+    right: 350px;
+    top: 150px;
     background: #FF4522;
     border-radius: 10px;
     
