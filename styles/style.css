@@ -96,7 +96,7 @@ nav{
     justify-content: space-between;
 }
 .hero-content h3 span{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     color: #ff4522;
 }
@@ -217,38 +217,72 @@ nav{
 
 .portfolio-wrapper{
     max-width: 1380px;
-    padding: 0 70px;
+    padding: 100px 70px;
 
 }
+.portfolio-wrapper span h3{
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff4522;
+    padding: 20px 0;
+}
+
+.portfolio-wrapper h3{
+    font-size: 26px;
+    font-weight: bold;
+    
+}
 .portfolio-grid-1{
-  width: 18.75em;
-  height: 12.5em;
-  padding: 50px;
+  max-width: 350px;
+  height: 380px;
+  
+  border-radius: 10px;
   background-image: url(images/portfolio1.jpg);
-  border: 5px solid black;
+  background-size:cover;
+  
+  /*border-image-source:10px url(images/portfolio1.jpg);*/
+  
 }
 .portfolio-grid-2{
-  width: 18.75em;
-  height: 12.5em;
-  background-image: url(images/portfolio2.jpg);
-  padding: 50px;
-  border: 5px solid black;
-}
+    max-width: 350px;
+  height: 380px;
+    border-radius: 10px;
+    background-image: url(images/portfolio2.jpg);
+    background-size: cover;
+    
+    /*border-image-source:10px url(images/portfolio1.jpg);*/
+    
+  }
 .portfolio-grid-3{
-  width: 18.75em;
-  height: 12.5em;
+    max-width: 350px;
+  height: 380px;
+  border-radius: 10px;
   background-image: url(images/portfolio3.jpg);
-  padding: 50px;
-  border: 5px solid black;
+  background-size: cover;
+  
+  /*border-image-source:10px url(images/portfolio1.jpg);*/
+  
 }
 .portfolio-grid{
     display: grid;
-    grid-template-columns: repeat(3, minmax(18.75em, 1fr));
+    grid-template-columns: repeat(3, minmax(390px, 1fr));
+    padding-top: 100px;
+    padding-bottom: 30px;
     
 }
 
 .pagination-total hr{
-    width: 70px;
+    width: 80px;
+    padding: 0 10px;
+}
+.pagination-total h4{
+    padding: 0 10px;
+}
+.left{
+    padding-right: 10px;
+}
+.next{
+    padding-left: 10px;
 }
 .pagination-total{
     display: flex;
