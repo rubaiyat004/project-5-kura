@@ -19,14 +19,12 @@ body{
 /*nav element starts here*/
 nav{
     background-color:#ffff;
-    height:100px;
+    height:70px;
     width: 100%;
-    
     text-align: center;
     position: fixed;
     z-index: 100;
-    
-        
+     
 }
 
 .logo h1{
@@ -37,22 +35,18 @@ nav{
 }
 
 .nav-element{
-    height: 100px;
+    height: 70px;
     
 }
 .nav-element ul{
     float: right;
-    
     list-style: none;
-    
-
 }
 .nav-element ul li{
     display: inline-block;
-    line-height: 100px;
-    margin: 0 15px;
-    
-    
+    line-height: 60px;
+    margin: 0 10px;
+       
 }
 .nav-element ul li img{
     width: 20px;
@@ -66,7 +60,7 @@ nav{
 .nav-element ul li a{
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .nav-element ul li a:hover{
@@ -78,7 +72,7 @@ nav{
     align-items:center;
     justify-content: space-between;
     max-width: 1340px;
-    padding: 0 70px;
+    padding: 0 50px;
     margin: 0 auto;
 }
 
@@ -118,6 +112,7 @@ nav{
 }
 .hero-content h1{
     font-size: 36px;
+    width: 80%;
     
 }
 
@@ -136,20 +131,26 @@ nav{
 
 
 .hero-content-flex-1 p{
-    font-size: 18px;
+    font-size: 16px;
     color: grey;
     width: 60%;
-    padding-left: 20px;
+    position: relative;
+    right: 45px;
+    
+   
 }
 .hero-content-flex-2 p{
-    font-size: 18px;
+    font-size: 16px;
     color: grey;
     width: 60%;
-    padding-left: 20px;
+    position: relative;
+    right: 40px;
 }
 .hero-content-flex-2{
     display: flex;
     align-items: center;
+    
+    
 }
 
 .hero-content-flex{
@@ -172,8 +173,8 @@ nav{
 }
 .hero-wrapper .hero-img img{
     transform: rotate(7deg);
-    width: 319px;
-    max-height: 400px;
+    width: 280px;
+    max-height: 370px;
     border-radius: 10px;
     position: relative;
     z-index: 1;
@@ -185,11 +186,11 @@ nav{
 
 .hero-wrapper .hero-img .photo-bg{
     position: absolute;
-    width: 319px;
-    height: 400px;
+    width: 280px;
+    height: 370px;
     transform: rotate(-7deg);
-    right: 270px;
-    top: 160px;
+    right: 275px;
+    top: 165px;
     background: #FF4522;
     border-radius: 10px;
  
@@ -206,7 +207,7 @@ nav{
 .hero-content li a{
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 16px;
     
     
 }
