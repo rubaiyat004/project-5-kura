@@ -225,18 +225,8 @@ nav{
     color: #ff4522;
     padding: 20px 0;
 }
-.up-right{
-    width: 30px;
-    height: 30px;
-    padding: 30px 0px 0px 0px;
-    
-}
-.inside{
-    padding: 280px 0px 20px 50px;
-}
-.inside h4{
-    font-size: 22px;
-}
+
+
 .portfolio-wrapper h3{
     font-size: 26px;
     font-weight: bold;
@@ -247,53 +237,63 @@ a {
     text-decoration:none;
     color: black;
 }
-.inside-grid-flex p{
-    font-size: 16px;
-    padding: 10px 0;
+
+
+.grid-image img{
+    width: 350px;
+  height: 380px;
+  
+  border-radius: 10px;
+  position: relative;
+ 
+  
 }
 
-.inside-grid-flex{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
+ .grid-image-hover .up-right{
+    width: 30px;
+    height: 30px;
+    
+    
 }
+.grid-image-hover{
+    position: absolute;
+    width: 350px;
+  height: 380px;
+  background: #F9F9F9;
+  border-radius: 10px;
+  border: 1px solid black;
+    
+}
+.grid-image-hover:hover{
+    display: block;
+}
+
 .portfolio-grid-1{
   max-width: 350px;
   height: 380px;
   
   border-radius: 10px;
-  background-image: url(images/portfolio1.jpg);
-
-  background-size:cover;
-  border-image:20px solid none;
   
-}
-.portfolio-grid-1:hover{
-    background: #F9F9F9;
-    
-    
 }
 
 .portfolio-grid-2{
     max-width: 350px;
-  height: 380px;
+    height: 380px;
     border-radius: 10px;
-    background-image: url(images/portfolio2.jpg);
-    background-size: cover;
-    
-    /*border-image-source:10px url(images/portfolio1.jpg);*/
+   
     
   }
 .portfolio-grid-3{
     max-width: 350px;
   height: 380px;
   border-radius: 10px;
-  background-image: url(images/portfolio3.jpg);
-  background-size: cover;
+  
+  
   
   /*border-image-source:10px url(images/portfolio1.jpg);*/
-  
 }
+
+
 .portfolio-grid{
     display: grid;
     grid-template-columns: repeat(3, minmax(390px, 1fr));
