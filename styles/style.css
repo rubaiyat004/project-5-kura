@@ -20,7 +20,7 @@ body{
 nav{
     background-color:#ffff;
     height:70px;
-    width: 100%;
+    max-width: 100%;
     text-align: center;
     position: fixed;
     z-index: 100;
@@ -903,14 +903,17 @@ a {
 }
 @media (min-width:360px){
     
-        nav{max-width: 22.5em; padding: 50ox 10px; }
+        
+        .top-nav{max-width: 18em; padding: 0px 50px; height: 70px;
+
+        }
         
     .hidden{ display: none;}
     .hero-wrapper{
-        max-width: 22.5em; padding: 90px 20px; display: flex; flex-direction: column-reverse;
+        max-width: 18em; padding: 90px 40px; display: flex; flex-direction: column-reverse;
         align-items: center; }
         .hero-wrapper .hero-img img{
-            transform: rotate(0deg); width: 20em;max-height: 23.125em;border-radius: 10px;
+            transform: rotate(0deg); width: 18em;max-height: 23.125em;border-radius: 10px;
             position: relative;top: 30px;padding: 0px 0 0px 0;}
         .hero-wrapper .hero-img .photo-bg{ display: none; }
 
