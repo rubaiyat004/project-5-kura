@@ -780,63 +780,98 @@ a {
 }
 .contact-desk-icon-1{
     display: flex;
+    padding: 25px 0 15px 0;
 }
+
 .contact-desk-icon-2{
     display: flex;
+    padding: 15px 0;
 }
 .contact-desk-icon-3{
     display: flex;
+    padding: 15px 0;
 }
 .contact-desk-icon-4{
     display: flex;
+    padding: 15px 0;
 }
 
 .contact-desk{
-    width: 400px;
-    padding: 40px;
+    max-width: 450px;
+    padding: 50px 0;
+}
+.contact-desk h4{
+    color: #ff4522;
+}
+.contact-desk h3{
+    font-size: 18px;
+    font-weight: 100;
+    padding-left: 10px;
+}
+.contact-desk h1{
+    font-size: 32px;
+}
+.contact-desk p{
+    font-size: 16px;
+    color: #8f8a8a;
+    line-height: 2;
+    padding-top: 20px;
 }
 #form{
     width: 400px;
+    background: #F9F9F9;
     
 }
 #name{
     width: 400px;
     height: 40px;
-    
+    margin: 10px 0;
+    padding-left: 10px;
     
 }
 #email{
     width: 400px;
     height: 40px;
-    
-    
+    margin: 10px 0;
+    padding-left: 10px;
 }
 #message{
     width: 400px;
     height: 40px;
-   
+    margin: 10px 0;
+    padding-left: 10px;
     
 }
 #submit{
-    width: 400px;
+    width: 415px;
     height: 40px;
-    
+    margin: 10px 0;
     
     text-align: center;
     color: #F9F9F9;
     background-color: #FF4522;
     justify-content: center;
+    cursor: pointer;
+    border: none;
+}
+#submit img{
+    filter: invert(1);
+}
+#submit:hover{
+    transition: .25s;
+    background-color: black;
 }
 .submit-icon{
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
+    padding-left: 5px;
 }
 .contact-form{
-    width: 400px;
+    max-width: 400px;
 }
 .contact-wrapper-grid{
     max-width: 1380px;
-    padding: 0 70px;
+    padding: 100px 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -844,18 +879,20 @@ a {
 
 /*footer starts here*/
 .footer{
-    background-color: rgb(114, 111, 111);
+    background-color: black;
     height: 80px;
+    color: #F9F9F9;
 }
 .footer-icon{
-    width: 30px;
-    height: 30px;
+    width: 15px;
+    height: 15px;
     margin-right: 10px;
     
 }
 
 .footer-social-icons{
     display: flex;
+    gap: 15px;
     
 }
 .footer-wrapper-flex{
@@ -864,5 +901,6 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 80px;
     
 }
