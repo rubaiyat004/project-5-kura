@@ -28,9 +28,8 @@ nav{
 }
 
 .logo h1{
-    font-size: 34px;
-    max-width: 70px;
-    max-height: 70px;
+    font-size: 32px;
+    
     cursor: pointer;
 }
 
@@ -44,13 +43,13 @@ nav{
 }
 .nav-element ul li{
     display: inline-block;
-    line-height: 60px;
-    margin: 0 10px;
+    line-height: 70px;
+    margin: 0 8px;
        
 }
 .nav-element ul li img{
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
 }
 .nav-element ul li a span{
     
@@ -89,8 +88,6 @@ nav{
 .hero-wrapper{
     max-width: 1380px;
     padding: 90px 70px;
-    
-    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -903,4 +900,26 @@ a {
     justify-content: space-between;
     height: 80px;
     
+}
+@media (min-width:360px){
+    
+        nav{max-width: 22.5em; padding: 50ox 10px; }
+        
+    .hidden{ display: none;}
+    .hero-wrapper{
+        max-width: 22.5em; padding: 90px 20px; display: flex; flex-direction: column-reverse;
+        align-items: center; }
+        .hero-wrapper .hero-img img{
+            transform: rotate(0deg); width: 20em;max-height: 23.125em;border-radius: 10px;
+            position: relative;top: 30px;padding: 0px 0 0px 0;}
+        .hero-wrapper .hero-img .photo-bg{ display: none; }
+
+        .hero-content-flex{
+            display: flex; flex-direction: column; max-width: 13.75em;
+        }
+        .down-arrow{
+            display: none;
+        }
+
+
 }
