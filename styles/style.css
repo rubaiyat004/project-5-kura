@@ -923,6 +923,16 @@ a {
         .down-arrow{
             display: none;
         }
+        .portfolio-wrapper{
+            max-width: 18em; padding: 40px 0 80px 0;}
+       .portfolio-grid{
+                display: grid;
+                grid-template-columns: repeat(1, minmax(17.4em, 1fr));
+                row-gap: 20px;
+                
+                
+            }
+
 
 
 }
