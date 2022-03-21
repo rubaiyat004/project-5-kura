@@ -846,7 +846,7 @@ a {
 /*footer starts here*/
 .footer{
     background-color: black;
-    height: 80px;
+    height: 150px;
     color: #F9F9F9;
 }
 .footer-icon{
@@ -922,4 +922,15 @@ a {
 .pricing-card-4 {max-width: 17em; padding: 10px 10px; height: 4em;}
 .pricing-card-5 {max-width: 17em; padding: 10px 10px; height: 4em;}
 
+.news-wrapper{
+    max-width: 18em; padding: 80px 0 80px 0;}
+    .news-grid{display: grid; grid-template-columns: repeat(1, minmax(17.3em, 1fr)); row-gap: 20px;}
+.contact-wrapper-grid{max-width: 18em; padding: 80px 0 80px 0; flex-direction: column;}
+#form{max-width: 17em;}
+#name{max-width: 16.5em;}
+#email{max-width: 16.5em;}
+#message{max-width: 16.5em;}
+#submit{max-width: 17.4em;}
+
+.footer-wrapper-flex{max-width: 18em; flex-direction: column; padding: 40px 0px; margin: 0 auto;}
 }
