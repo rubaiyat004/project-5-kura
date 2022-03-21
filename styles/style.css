@@ -133,7 +133,7 @@ nav{
     color: grey;
     width: 60%;
     position: relative;
-    right: 45px;
+    right: 35px;
     
    
 }
@@ -142,7 +142,7 @@ nav{
     color: grey;
     width: 60%;
     position: relative;
-    right: 40px;
+    right: 30px;
 }
 .hero-content-flex-2{
     display: flex;
@@ -936,4 +936,14 @@ a {
 #submit{max-width: 17.4em;}
 
 .footer-wrapper-flex{max-width: 18em; flex-direction: column; padding: 40px 0px; margin: 0 auto;}
+}
+
+@media (min-width: 500px) { 
+    .top-nav{max-width: 28em; padding: 0px 40px; height: 70px; margin: 0 auto;}
+    .hero-wrapper{
+        max-width: 28em; padding: 40px 40px; display: flex; flex-direction: column-reverse;
+        align-items: center; }
+    .hero-content-flex{ display: flex; flex-direction: row; max-width: 24em;}
+    .hero-wrapper .hero-img{ max-width: 28em;max-height: 32em; top: 30px;padding: 40px 40px;}
+    .hero-wrapper .hero-img img{ width: 26em; height: 30em;}
 }
