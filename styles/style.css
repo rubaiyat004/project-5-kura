@@ -269,15 +269,14 @@ a {
     position: absolute;
     top: 0;
     left: 0;
-    width: 95%;
-    height: 95%;
+    
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     background: #fff;
-    margin-top: 9px;
-    margin-left: 9px;
+    
     opacity: 0;
     transition: .25s;
 
@@ -946,4 +945,7 @@ a {
     .hero-content-flex{ display: flex; flex-direction: row; max-width: 24em;}
     .hero-wrapper .hero-img{ max-width: 28em;max-height: 32em; top: 30px;padding: 40px 40px;}
     .hero-wrapper .hero-img img{ width: 26em; height: 30em;}
+    .portfolio-wrapper{ max-width: 28em; padding: 80px 40px;}
+    .portfolio-grid{ display: grid; grid-template-columns: repeat(1, minmax(26em, 1fr)); row-gap: 30px; margin: 0 auto;}
+    .grid-image{ width: 26.3em; }
 }
