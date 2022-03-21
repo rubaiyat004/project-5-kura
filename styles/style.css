@@ -269,14 +269,15 @@ a {
     position: absolute;
     top: 0;
     left: 0;
-    
-    height: auto;
+    width: 95%;
+    height: 95%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     background: #fff;
-    
+    margin-top: 9px;
+    margin-left: 9px;
     opacity: 0;
     transition: .25s;
 
@@ -518,7 +519,7 @@ a {
     padding: 30px 0;
 }
 .pricing-desc{
-    width: 28.125em;
+    
     padding-bottom: 450px;
 }
 .pricing-cards{
@@ -542,10 +543,11 @@ a {
     
 }
 .pricing-card-1-flex{
-    width: 21.875em;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 21.875em;
 }
 .pricing-card-1{
     display: flex;
@@ -556,6 +558,7 @@ a {
     border-radius: 10px;
     padding: 20px;
     align-items: center;
+    
     box-shadow: 0 1px 20px rgba(0,0,0,0.1), 0 2px 2px rgba(0,0,0,0.05);
 }
 .pricing-card-1:hover{
@@ -940,12 +943,33 @@ a {
 @media (min-width: 500px) { 
     .top-nav{max-width: 28em; padding: 0px 40px; height: 70px; margin: 0 auto;}
     .hero-wrapper{
-        max-width: 28em; padding: 40px 40px; display: flex; flex-direction: column-reverse;
+        max-width: 28em; padding: 60px 40px; display: flex; flex-direction: column-reverse;
         align-items: center; }
     .hero-content-flex{ display: flex; flex-direction: row; max-width: 24em;}
     .hero-wrapper .hero-img{ max-width: 28em;max-height: 32em; top: 30px;padding: 40px 40px;}
     .hero-wrapper .hero-img img{ width: 26em; height: 30em;}
-    .portfolio-wrapper{ max-width: 28em; padding: 80px 40px;}
-    .portfolio-grid{ display: grid; grid-template-columns: repeat(1, minmax(26em, 1fr)); row-gap: 30px; margin: 0 auto;}
-    .grid-image{ width: 26.3em; }
+    .portfolio-wrapper{ max-width: 28em; padding: 60px 40px; }
+    .portfolio-grid{  padding: 30px 40px; display: grid; grid-template-columns: repeat(1, minmax(25em, 1fr)); row-gap: 60px;}
+    .skills-wrapper{max-width: 28em; padding:60px 40px}
+    .timeline-wrapper{max-width: 28em; padding: 60px 40px;}
+
+    .pricing-wrapper{max-width: 28em; padding: 60px 40px;}
+    .pricing-desc{max-width: 28em; padding: 20px 0px;}
+.pricing-cards{max-width: 26em; padding: 20px 0px;}
+.pricing-card-1 {max-width: 26em; padding: 10px 10px; height: 5em;}
+.pricing-card-2 {max-width: 26em; padding: 10px 10px; height: 5em;}
+.pricing-card-3 {max-width: 26em; padding: 10px 10px; height: 5em;}
+.pricing-card-4 {max-width: 26em; padding: 10px 10px; height: 5em;}
+.pricing-card-5 {max-width: 26em; padding: 10px 10px; height: 5em;}
+
+.news-wrapper{
+    max-width: 28em; padding: 60px 40px;}
+    .news-grid{padding: 30px 40px; display: grid; grid-template-columns: repeat(1, minmax(25em, 1fr)); row-gap: 30px;}
+    
+    .contact-wrapper-grid{max-width: 28em; padding: 60px 40px; flex-direction: column;}
+    #form{max-width: 28em; }
+    #name{max-width: 27.5em;}
+    #email{max-width: 26.5em;}
+    #message{max-width: 26.5em;}
+    #submit{max-width: 25.85em;}
 }
