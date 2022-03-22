@@ -949,7 +949,9 @@ a {
     .hero-wrapper .hero-img{ max-width: 28em;max-height: 32em; top: 30px;padding: 40px 40px;}
     .hero-wrapper .hero-img img{ width: 26em; height: 30em;}
     .portfolio-wrapper{ max-width: 28em; padding: 60px 40px; }
-    .portfolio-grid{  padding: 30px 40px; display: grid; grid-template-columns: repeat(1, minmax(25em, 1fr)); row-gap: 60px;}
+    .portfolio-grid{  padding: 30px 40px; display: grid; grid-template-columns: repeat(1, minmax(23.5em, 1fr)); row-gap: 60px;}
+    .grid-image{width: 23.5em;}
+    .grid-image-hover{width: 23.5em;}
     .skills-wrapper{max-width: 28em; padding:60px 40px}
     .timeline-wrapper{max-width: 28em; padding: 60px 40px;}
 
@@ -972,4 +974,15 @@ a {
     #email{max-width: 26.5em;}
     #message{max-width: 26.5em;}
     #submit{max-width: 25.85em;}
+}
+
+@media (min-width: 640px){
+    .top-nav{max-width: 40em; padding: 0px 60px; height: 70px; margin: 0 auto;}
+    .hero-wrapper .hero-img{ max-width: 40em; padding: 40px 60px;}
+    .hero-wrapper .hero-img img{ width: 32em; }
+    .hero-wrapper{ max-width: 40em; padding: 40px 60px;  }
+    .portfolio-wrapper{ max-width: 40em; padding: 40px 60px; }
+    .portfolio-grid{  display: grid; grid-template-columns: repeat(1, minmax(30em, 1fr)); row-gap: 60px;}
+    .grid-image{width: 30em;}
+    .grid-image-hover{width: 30em;}
 }
