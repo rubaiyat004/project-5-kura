@@ -90,6 +90,7 @@ nav{
     max-width: 1380px;
     padding: 90px 70px;
     display: flex;
+    
     align-items: center;
     justify-content: space-between;
 }
@@ -171,7 +172,7 @@ nav{
 .hero-wrapper .hero-img img{
     transform: rotate(7deg);
     width: 280px;
-    max-height: 370px;
+    height: 470px;
     border-radius: 10px;
     position: relative;
     z-index: 1;
@@ -548,6 +549,7 @@ a {
     justify-content: space-between;
     align-items: center;
     width: 21.875em;
+    
 }
 .pricing-card-1{
     display: flex;
@@ -815,16 +817,20 @@ a {
     padding-left: 10px;
 }
 #submit{
-    width: 40em;
+    width: 400px;
     height: 40px;
     margin: 10px 0;
+    display: flex;
+    align-items: center;
     text-align: center;
     color: #F9F9F9;
     background-color: #FF4522;
     justify-content: center;
+    
     cursor: pointer;
     border: none;
 }
+#submit h3{ font-weight: 60;}
 #submit img{
     filter: invert(1);
 }
@@ -935,7 +941,7 @@ a {
 #name{max-width: 16.5em;}
 #email{max-width: 16.5em;}
 #message{max-width: 16.5em;}
-#submit{max-width: 17.4em;}
+#submit{width: 17.4em;}
 
 .footer-wrapper-flex{max-width: 18em; flex-direction: column; padding: 40px 0px; margin: 0 auto;}
 }
@@ -974,13 +980,14 @@ a {
     #name{max-width: 27.5em;}
     #email{max-width: 26.5em;}
     #message{max-width: 26.5em;}
-    #submit{max-width: 25.85em;}
+    #submit{width: 26em;}
+    
 }
 
 @media (min-width: 640px){
     .top-nav{max-width: 40em; padding: 0px 60px; height: 70px; margin: 0 auto;}
     .hero-wrapper .hero-img{ max-width: 40em; padding: 40px 60px;}
-    .hero-wrapper .hero-img img{ width: 32em; }
+    .hero-wrapper .hero-img img{ width: 32em;}
     .hero-wrapper{ max-width: 40em; padding: 40px 60px;  }
     .portfolio-wrapper{ max-width: 40em; padding: 40px 60px; }
     .portfolio-grid{  display: grid; grid-template-columns: repeat(1, minmax(30em, 1fr)); row-gap: 60px;}
@@ -1003,6 +1010,7 @@ a {
     .news-grid{display: grid; grid-template-columns: repeat(1, minmax(30em, 1fr)); row-gap: 30px;}
     .grid-img{width: 30em;}
     .grid-img-hover{width: 29em;}
+
     .contact-wrapper-grid{max-width: 40em; padding: 60px 60px;}
     .contact-desk{max-width: 40em;}
     .contact-form{max-width: 40em;}
@@ -1010,8 +1018,60 @@ a {
     #name{max-width: 30em; padding: 0 25px;}
     #email{max-width: 30em;padding: 0 25px;}
     #message{max-width: 30em;padding: 0 25px;}
-    #submit{max-width: 28.5em; }
+    #submit{width: 28.5em;}
     .footer-wrapper-flex{max-width: 40em; flex-direction: column; padding: 60px 60px; margin: 0 auto;}
     
 
+
+
+
+
+
+
+    
+    @media (min-width: 768px){
+        .top-nav{max-width: 45em; padding: 0px 60px; height: 70px; margin: 0 auto;}
+        .hero-wrapper{ max-width: 45em; padding: 70px 60px;flex-wrap: wrap;  }
+        .hero-wrapper .hero-img{ max-width: 45em; height:150vh; padding: 0px 60px;}
+        .hero-wrapper .hero-img img{ width: 34em;}
+        .portfolio-wrapper{ max-width: 45em; padding: 60px 60px; }
+        .portfolio-grid{  padding: 60px 0; display: grid; grid-template-columns: repeat(1, minmax(38em, 1fr)); row-gap: 60px;}
+    .grid-image{width: 38em;}
+    .grid-image-hover{width: 37em;}
+    .skills-wrapper{max-width: 45em; padding: 70px 60px;}
+    .timeline-wrapper{max-width: 45em; padding: 70px 60px;}
+    .timeline-flex-body-1{display: grid;grid-template-columns: repeat(3, minmax(200px, 1fr));column-gap: 20px;padding: 40px 0; }
+    .timeline-flex-body-2{ display: grid; grid-template-columns: repeat(3, minmax(200px, 1fr));column-gap: 20px;padding: 40px 0;}
+    .timeline-flex-body-3{display: grid; grid-template-columns: repeat(3, minmax(200px, 1fr));padding: 40px 0;column-gap: 20px;}
+    .timeline-flex-body-4{display: grid;grid-template-columns: repeat(3, minmax(200px, 1fr));padding: 40px 0;column-gap: 20px;}
+    .timeline-flex-body-5{ display: grid; grid-template-columns: repeat(3, minmax(200px, 1fr));padding: 40px 0;column-gap: 20px;}
+
+    .pricing-wrapper{max-width: 45em; padding: 70px 60px;}
+    .pricing-desc{max-width: 45em; padding: 20px 0px;}
+    .pricing-cards{max-width: 45em; padding: 20px 0px;}
+    .pricing-card-1{width: 32em; padding: 20px 30px;}
+    .pricing-card-1-flex{width: 32em;}
+    .pricing-card-2{width: 32em; padding: 20px 30px;}
+    .pricing-card-2-flex{width: 32em;}
+    .pricing-card-3{width: 32em; padding: 20px 30px;}
+    .pricing-card-3-flex{width: 32em;}
+    .pricing-card-4{width: 32em; padding: 20px 30px;}
+    .pricing-card-4-flex{width: 32em;}
+    .pricing-card-5{width: 32em; padding: 20px 30px;}
+    .pricing-card-1-flex{width: 32em;}
+
+    .news-wrapper{max-width: 45em; padding: 70px 60px;}
+    .news-grid{padding: 60px 0; display: grid; grid-template-columns: repeat(1, minmax(38em, 1fr)); row-gap: 30px;}
+    .grid-img{width: 38em;}
+    .grid-img-hover{width: 37em;}
+    
+    .contact-wrapper-grid{max-width: 45em; padding: 70px 60px;}
+    .contact-desk{max-width: 45em;}
+    .contact-form{max-width: 45em;}
+    
+    #form{width: 30em; }
+    #name{width: 30em; padding: 0 25px;}
+    #email{width: 30em;padding: 0 25px;}
+    #message{width: 30em;padding: 0 25px;}
+    #submit{width: 33.5em; }
 }
