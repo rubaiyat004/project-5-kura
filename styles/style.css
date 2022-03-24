@@ -1102,7 +1102,16 @@ a {
         .hero-wrapper{ max-width: 55em; padding: 70px 70px;  }
         .hero-content{width: 55em;}
         .portfolio-wrapper{ max-width: 55em; padding: 70px 60px;}
-        
+        .portfolio-grid{padding: 60px 130px;}
+        .skills-wrapper{max-width: 55em; padding: 70px 60px;}
+        .timeline-wrapper{max-width: 55em; padding: 70px 60px;}
+        .pricing-wrapper{max-width: 55em; padding: 70px 60px;}
+        .pricing-desc{max-width: 55em;}
+        .news-wrapper{max-width: 55em; padding: 70px 60px;}
+        .news-grid{padding: 60px 130px; }
+        .contact-wrapper-grid{max-width: 55em; padding: 70px 60px;}
+        .contact-desk{max-width: 55em;}
+        .footer-wrapper-flex{max-width: 55em; flex-direction: row; padding: 60px 60px; margin: 0 auto;}
     }
     
 
