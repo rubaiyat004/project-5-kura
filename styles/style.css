@@ -171,12 +171,11 @@ nav{
 }
 .hero-wrapper .hero-img img{
     transform: rotate(7deg);
-    width: 280px;
-    height: 470px;
+    
     border-radius: 10px;
     position: relative;
     z-index: 1;
-    top: -30px;
+    
     
     
     
@@ -184,11 +183,10 @@ nav{
 
 .hero-wrapper .hero-img .photo-bg{
     position: absolute;
-    width: 280px;
+    width: 260px;
     height: 370px;
     transform: rotate(-7deg);
-    right: 275px;
-    top: 165px;
+    
     background: #FF4522;
     border-radius: 10px;
  
@@ -1061,7 +1059,7 @@ a {
     .pricing-card-4{width: 32em; padding: 20px 30px;}
     .pricing-card-4-flex{width: 32em;}
     .pricing-card-5{width: 32em; padding: 20px 30px;}
-    .pricing-card-1-flex{width: 32em;}
+    .pricing-card-5-flex{width: 32em;}
 
     .news-wrapper{max-width: 45em; padding: 70px 60px;}
     .news-grid{padding: 60px 20px; display: grid; grid-template-columns: repeat(1, minmax(38em, 1fr)); row-gap: 30px;}
@@ -1096,7 +1094,7 @@ a {
     .contact-desk{max-width: 50em;}
     .contact-form{max-width: 50em;}
     .footer-wrapper-flex{max-width: 50em; flex-direction: row; padding: 60px 60px; margin: 0 auto;}
-    
+}
     @media (min-width:1000px){
         .top-nav{max-width: 55em; padding: 0px 70px; height: 70px; margin: 0 auto;}
         .hero-wrapper{ max-width: 55em; padding: 70px 70px;  }
@@ -1112,7 +1110,55 @@ a {
         .contact-wrapper-grid{max-width: 55em; padding: 70px 60px;}
         .contact-desk{max-width: 55em;}
         .footer-wrapper-flex{max-width: 55em; flex-direction: row; padding: 60px 60px; margin: 0 auto;}
-    }
     
+}
+@media (min-width:1041px){
+    .top-nav{max-width: 58em; padding: 0px 70px; height: 70px; margin: 0 auto;}
+    .hero-wrapper{ max-width: 58em; padding: 90px 70px;flex-direction: row;align-items: center;justify-content: space-between;}
+    .hero-wrapper .hero-img img{   width: auto; height: 100%; position: relative;
+        z-index: 1; transform: rotate(7deg);}
+    .hero-wrapper .hero-img{ max-width: 50%; height:100%;  }
+    .hero-wrapper .hero-img .photo-bg{
+        position: absolute;
+        
+        transform: rotate(-7deg);
+        display: block;
+        background: #FF4522;
+        border-radius: 10px;
+        top: 279px;
+        right: 250px;
+    }
+    .portfolio-wrapper{ max-width: 58em; padding: 70px 60px;}
+    .portfolio-grid{  padding: 60px 20px; display: grid; grid-template-columns: repeat(3, minmax(17em, 1fr)); row-gap: 60px;}
+    .grid-image{width: 17em;}
+    .grid-image-hover{width: 16em;}
+    .skills-wrapper{max-width: 58em; padding: 70px 60px;display: flex;
+        align-items: center;
+        justify-content: space-between;}
+    
+.skill-hero{display: block;}
+.bar-container{max-width: 47%;}
+
+.timeline-wrapper{max-width: 58em; padding: 70px 60px;}
+
+.pricing-wrapper{max-width: 58em; padding: 70px 60px;}
+.pricing-container-flex{
+   flex-direction: row;
+   justify-content: space-between;
+}
+.pricing-desc{max-width: 48%; padding: 0px 0px 450px 0px;}
+    .pricing-cards{max-width:48%; padding: 20px 0px;}
+    .pricing-card-1{width: 20em; padding: 20px 30px;}
+    .pricing-card-1-flex{width: 20em;}
+    .pricing-card-2{width: 20em; padding: 20px 30px;}
+    .pricing-card-2-flex{width: 20em;}
+    .pricing-card-3{width: 20em; padding: 20px 30px;}
+    .pricing-card-3-flex{width: 20em;}
+    .pricing-card-4{width: 20em; padding: 20px 30px;}
+    .pricing-card-4-flex{width: 20em;}
+    .pricing-card-5{width: 20em; padding: 20px 30px;}
+    .pricing-card-5-flex{width: 20em;}
+
+
 
 }
